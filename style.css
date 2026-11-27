@@ -1,0 +1,35 @@
+body{
+    background-color: #efecdb;
+    
+  }
+.card-one, .card-two {
+  width: 50%;
+  height: 800px;
+  border: 2px solid #5f2f1182;
+  margin: 10px auto;
+  font-size: 24px;
+  text-align: center;
+  color: #2b0d0d;
+  }
+.card-one:hover {
+  background-image: url("images/загруженное (1).jpeg");
+  background-size: cover;
+}
+.card-one:hover p{
+    opacity: 0;
+}
+.card-two:hover {
+    background-image:url(images/загруженное.jpeg);
+    background-size: cover;
+}
+.card-two:hover p{
+    opacity: 0;
+}
+.card-one:active {
+  background-image:url("images/загруженное (3).jpeg") ;
+  background-size: cover;
+}
+.card-two:active {
+    background-image: url("images/загруженное (2).jpeg");
+    background-size: cover;
+}
